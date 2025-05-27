@@ -1,4 +1,10 @@
+name = "rsshub"
+main = "dist/index.js" 
+compatibility_date = "2025-05-27"
+node_compat = true 
+ 
 [build]
-command = "npm run start"
-[site]
-bucket = "./dist"
+command = "npm run build"
+ 
+[env]
+NODE_VERSION = "22" # 指定 Node.js  版本 
